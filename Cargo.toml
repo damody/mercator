@@ -1,0 +1,10 @@
+[package]
+name = "mercator"
+version = "0.1.0"
+authors = ["damody <t1238142000@gmail.com>"]
+include = [
+    "**/*.rs",
+    "Cargo.toml",
+]
+description = "Mercator projection for WGS84 to 2d zone"
+[dependencies]
