@@ -1,6 +1,6 @@
 [package]
 name = "mercator"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["damody <t1238142000@gmail.com>"]
 description = "Mercator projection for WGS84 to 2d zone"
 license = "MIT"
