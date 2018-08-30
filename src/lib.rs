@@ -141,17 +141,17 @@ pub fn mercator_to_lnglat(x:f64, y:f64, center_lng:f64, k0:f64, dx:f64) -> (f64,
 pub fn f2degree_zone_to_wgs84(x:f64, y:f64, center_lng:f64) -> (f64, f64) {
     let k0:f64 = 0.9999;
     let dx:f64 = 250000.0;
-    return lnglat_to_mercator(x, y, center_lng, k0, dx)
+    return mercator_to_lnglat(x, y, center_lng, k0, dx)
 }
 
 pub fn f3degree_zone_to_wgs84(x:f64, y:f64, center_lng:f64) -> (f64, f64) {
     let k0:f64 = 1.0;
     let dx:f64 = 350000.0;
-    return lnglat_to_mercator(x, y, center_lng, k0, dx)
+    return mercator_to_lnglat(x, y, center_lng, k0, dx)
 }
 
 pub fn f6degree_zone_to_wgs84(x:f64, y:f64, center_lng:f64) -> (f64, f64) {
     let k0:f64 = 0.9996;
     let dx:f64 = 500000.0;
-    return lnglat_to_mercator(x, y, center_lng, k0, dx)
+    return mercator_to_lnglat(x, y, center_lng, k0, dx)
 }
