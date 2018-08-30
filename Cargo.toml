@@ -4,6 +4,8 @@ version = "0.1.0"
 authors = ["damody <t1238142000@gmail.com>"]
 description = "Mercator projection for WGS84 to 2d zone"
 license = "MIT"
+documentation = "https://damody.github.io/mercator/doc/mercator/index.html"
+repository = "https://github.com/damody/mercator"
 
 include = [
     "**/*.rs",
