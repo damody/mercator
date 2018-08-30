@@ -1,0 +1,3 @@
+var searchIndex = {};
+searchIndex["mercator"] = {"doc":"","items":[[5,"lnglat_to_mercator","mercator","convert croodinate from wgs84 to mercator projection - https://en.wikipedia.org/wiki/Mercator_projection # Examples",null,null],[5,"wgs84_to_twd97","","",null,null],[5,"wgs84_to_2degree_zone","","",null,null],[5,"wgs84_to_3degree_zone","","",null,null],[5,"wgs84_to_6degree_zone","","",null,null],[5,"mercator_to_lnglat","","convert croodinate from mercator projection to wgs84 - https://en.wikipedia.org/wiki/Mercator_projection # Examples",null,null],[5,"f2degree_zone_to_wgs84","","",null,null],[5,"f3degree_zone_to_wgs84","","",null,null],[5,"f6degree_zone_to_wgs84","","",null,null]],"paths":[]};
+initSearch(searchIndex);
